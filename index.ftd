@@ -29,7 +29,8 @@ documentation.
 
 To use `typography` add below lines into your FASTN.ftd file:
 
-To learn more about typography [click here](/headings/).
+To learn more about typography 
+[click here](https://fastn-community.github.io/typography/headings/).
 
 -- cb.code:
 lang: ftd
