@@ -21,7 +21,7 @@ colors: $cs.main
 -- tf.markdown:
 
 This is markdown text. You can add [link](https://fastn.com) and
-add **bold**, *italic* etc styles to markdown text.
+**bold**, *italic* etc styles to markdown text.
 
 -- end: site-doc.output
 
