@@ -1,8 +1,10 @@
 -- import: fastn
 
--- fastn.package: fifthtry.github.io/typography
+-- fastn.package: fastn-community.github.io/typography
 
--- fastn.dependency: fifthtry.github.io/package-doc
+-- fastn.dependency: fastn-community.github.io/site-doc
+-- fastn.dependency: fastn-community.github.io/code-block
+-- fastn.dependency: fastn-community.github.io/pretty-cs
 
 
 
@@ -11,3 +13,9 @@
 
 
 # Home: index.html
+
+- Headings h0 to h4: /headings/
+- Markdown: /markdown/
+
+# GitHub
+  url: https://github.com/fastn-community/typography
