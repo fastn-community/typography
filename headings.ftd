@@ -1,0 +1,144 @@
+-- import: fastn-community.github.io/typography as tf
+-- import: fastn-community.github.io/code-block as cb
+-- import: fastn-community.github.io/site-doc
+-- import: fastn-community.github.io/pretty-cs as cs
+
+
+
+
+
+-- site-doc.doc-home: Typography
+github-url: https://github.com/fastn-community/typography
+color-scheme: \$ftd.default-colors
+typography: \$ftd.default-types
+current-package: fastn-community.github.io/typography
+show-tabs: true
+site-title: Typography
+
+-- site-doc.output:
+colors: $cs.main
+
+-- tf.h0: This is heading hero
+
+Heading also has optional body property.
+
+-- tf.h1: This is heading large
+
+Heading also has optional body property.
+
+-- tf.h2: This is heading medium
+
+Heading also has optional body property.
+
+-- tf.h3: This is heading small
+
+Heading also has optional body property.
+
+-- tf.h4: This is heading tiny
+
+Heading also has optional body property.
+
+-- end: site-doc.output
+
+-- site-doc.component-doc: `headings`
+package-link: fastn-community.github.io/typography
+github-link: https://github.com/fastn-community/typography
+package-name: fastn-community.github.io/typography
+info: ` headings` contains various heading like h0, h1, h2, h3 & h4.
+
+The `typography` component is already included inside
+[`doc-site`](fifthtry.github.io/doc-site). If you are using `doc-site` then 
+don't add typography as fastn dependency.
+
+-- site-doc.header: How to use?
+
+Add below code to your FASTN.ftd and Import `typography` into your `.ftd` file
+
+-- cb.code:
+lang: ftd
+
+\-- fastn.dependency: fastn-community.github.io/typography
+
+-- cb.code: 
+lang: ftd
+
+\-- import: fastn-community.github.io/typography as tf
+
+\-- tf.h0: This is heading hero
+
+Heading also has optional body property.
+
+\-- tf.h1: This is heading large
+
+Heading also has optional body property.
+
+\-- tf.h2: This is heading medium
+
+Heading also has optional body property.
+
+\-- tf.h3: This is heading small
+
+Heading also has optional body property.
+
+\-- tf.h4: This is heading tiny
+
+Heading also has optional body property.
+
+-- site-doc.header: Properties:
+
+Below are details of all properties of heading components. Each heading
+component has title and body as common properties.
+
+-- site-doc.component-property: `title`
+
+`title` Title property of each heading is a default property. Below are title
+font size, line-height and font-weight of each heading.
+
+🔶 h0: its `role` is \$inherited.types.heading-hero
+- desktop: `font-size: 52, line-height: 60, letter-spacing: 0, weight: 700`
+- mobile: `font-size: 52, line-height: 60, letter-spacing: 0, weight: 700`
+- border-bottom: 1px solid \$inherited.colors.border(as per color scheme you use)
+
+🔶 h1: its `role` is \$inherited.types.heading-large
+- desktop: `font-size: 40, line-height: 48, letter-spacing: 0, weight: 700`
+- mobile: `font-size: 40, line-height: 48, letter-spacing: 0, weight: 700`
+- border-bottom: 1px solid \$inherited.colors.border(as per color scheme you use)
+
+🔶 h2: its `role` is \$inherited.types.heading-medium
+- desktop: `font-size: 32, line-height: 44, letter-spacing: 0, weight: 600`
+- mobile: `font-size: 32, line-height: 44, letter-spacing: 0, weight: 600`
+
+🔶 h3: its `role` is \$inherited.types.heading-small
+- desktop: `font-size: 24, line-height: 36, letter-spacing: 0, weight: 500`
+- mobile: `font-size: 24, line-height: 36, letter-spacing: 0, weight: 500`
+
+🔶 h4: its `role` is \$inherited.types.heading-tiny
+- desktop: `font-size: 18, line-height: 26, letter-spacing: 0, weight: 500`
+- mobile: `font-size: 18, line-height: 26, letter-spacing: 0, weight: 500`
+
+-- site-doc.component-property: `body`
+
+Body property is used to add body content to heading components. Each heading
+body is using common font-size, line-height and font-weight.
+
+🔶 Body text uses fastn default `$inherited.types.copy-regular` type.
+
+- desktop: `font-size: 16, line-height: 24, letter-spacing: 0, weight: 400`
+- mobile: `font-size: 16, line-height: 24, letter-spacing: 0, weight: 400`
+
+
+-- site-doc.property-header:
+
+-- site-doc.table-of-property: `title`
+type: String
+default: Default
+
+-- site-doc.table-of-property: `body`
+type: Body
+default: Optional
+
+-- end: site-doc.property-header
+
+-- end: site-doc.component-doc
+
+-- end: site-doc.doc-home
