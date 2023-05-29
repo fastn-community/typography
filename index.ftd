@@ -258,22 +258,14 @@ width: fill-container
 
 
 -- component markdown:
-body body:
-optional boolean collapsed:
-optional caption title:
-optional boolean two_columns:
+caption or body body:
 optional string id:
-
--- ftd.column:
-width: fill-container
-id if { $markdown.id != NULL }: $markdown.id
 
 -- ftd.text: 
 text: $markdown.body
 role: $inherited.types.copy-regular
 color: $inherited.colors.text
-classes: markdown
-
--- end: ftd.column
+width: fill-container
+id: $markdown.id
 
 -- end: markdown
