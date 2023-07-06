@@ -12,7 +12,7 @@ github-url: https://github.com/fastn-community/typography
 color-scheme: \$ftd.default-colors
 typography: \$ftd.default-types
 current-package: fastn-community.github.io/typography
-show-tabs: true
+show-tabs: false
 site-title: Typography
 
 -- site-doc.output:
@@ -67,15 +67,6 @@ body is using common font-size, line-height and font-weight.
 
 - desktop: `font-size: 16, line-height: 24, letter-spacing: 0, weight: 400`
 - mobile: `font-size: 16, line-height: 24, letter-spacing: 0, weight: 400`
-
-
--- site-doc.property-header:
-
--- site-doc.table-of-property: `body`
-type: Body
-default: Default
-
--- end: site-doc.property-header
 
 -- end: site-doc.component-doc
 
