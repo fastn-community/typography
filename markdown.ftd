@@ -18,9 +18,10 @@ github-link: https://github.com/fastn-community/typography
 package-name: fastn-community.github.io/typography
 info: ` markdown` markdown is used to add body size content to your fastn pages.
 
-The `markdown` component is already included inside
-[`doc-site`](fifthtry.github.io/doc-site). If you are using `doc-site` then 
-don't add typography as fastn dependency.
+The `typography` package is already included inside 
+[doc-site](https://fastn-community.github.io/doc-site/). If you are using 
+[doc-site](https://fastn-community.github.io/doc-site/) then don't add 
+typography as [fastn](https://fastn.com/) dependency.
 
 -- site-doc.header: How to use
 
