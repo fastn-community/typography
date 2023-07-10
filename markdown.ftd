@@ -9,18 +9,8 @@
 
 -- site-doc.doc-home: Typography
 github-url: https://github.com/fastn-community/typography
-current-package: fastn-community.github.io/typography
 show-tabs: false
 site-title: Typography
-
--- site-doc.output:
-
--- tf.markdown:
-
-This is markdown text. You can add [link](https://fastn.com) and
-**bold**, *italic* etc styles to markdown text.
-
--- end: site-doc.output
 
 -- site-doc.component-doc: `markdown`
 package-link: fastn-community.github.io/typography
@@ -32,7 +22,7 @@ The `markdown` component is already included inside
 [`doc-site`](fifthtry.github.io/doc-site). If you are using `doc-site` then 
 don't add typography as fastn dependency.
 
--- site-doc.header: How to use?
+-- site-doc.header: How to use
 
 Add below code to your FASTN.ftd and Import `typography` into your `.ftd` file
 
@@ -41,21 +31,44 @@ lang: ftd
 
 \-- fastn.dependency: fastn-community.github.io/typography
 
+-- site-doc.markdown:
+
+Import `typography` into your `.ftd` file
+
 -- cb.code: 
 lang: ftd
 
 \-- import: fastn-community.github.io/typography as tf
+
+-- site-doc.markdown:
+
+Add `markdown` component into your `.ftd` file
+
+-- cb.code: 
+lang: ftd
 
 \-- tf.markdown:
 
 This is markdown text. You can add [link](https://fastn.com) and
 add **bold**, *italic* etc styles to markdown text.
 
+-- site-doc.header: Example
+
+-- site-doc.output:
+
+-- tf.markdown:
+
+This is markdown text. You can add [link](https://fastn.com) and
+**bold**, *italic* etc styles to markdown text.
+
+-- end: site-doc.output
+
 -- site-doc.header: Properties:
 
 Markdown has only body property as its default. 
 
--- site-doc.component-property: `body`  type: body (`required`)
+-- site-doc.component-property: `body`  
+type: body (`required`)
 
 Body property is used to add body content of markdown component. Markdown
 body is using common font-size, line-height and font-weight.

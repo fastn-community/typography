@@ -12,10 +12,65 @@
 -- site-doc.doc-home: Typography
 github-url: https://github.com/fastn-community/typography
 site-title: Typography
-
-current-package: fastn-community.github.io/typography
 show-tabs: false
-site-title: Typography
+
+-- site-doc.component-doc: `headings`
+package-link: fastn-community.github.io/typography
+github-link: https://github.com/fastn-community/typography
+package-name: fastn-community.github.io/typography
+info: ` headings` contains various heading like h0, h1, h2, h3 & h4.
+
+The `typography` component is already included inside
+[`doc-site`](fifthtry.github.io/doc-site). If you are using `doc-site` then 
+don't add typography as fastn dependency.
+
+-- site-doc.header: How to use
+
+Add below code to your FASTN.ftd
+
+-- cb.code:
+lang: ftd
+
+\-- fastn.dependency: fastn-community.github.io/typography
+
+-- site-doc.markdown:
+
+Import `typography` into your `.ftd` file
+
+-- cb.code: 
+lang: ftd
+
+\-- import: fastn-community.github.io/typography as tf
+
+-- site-doc.markdown:
+
+Add `typography` components into your `.ftd` file
+
+-- cb.code: 
+lang: ftd
+max-height.fixed.px: 300
+
+\-- tf.h0: This is heading hero
+
+Heading also has optional body property.
+
+\-- tf.h1: This is heading large
+
+Heading also has optional body property.
+
+\-- tf.h2: This is heading medium
+
+Heading also has optional body property.
+
+\-- tf.h3: This is heading small
+
+Heading also has optional body property.
+
+\-- tf.h4: This is heading tiny
+
+Heading also has optional body property.
+
+-- site-doc.header: Examples
 
 -- site-doc.output:
 
@@ -41,49 +96,6 @@ Heading also has optional body property.
 
 -- end: site-doc.output
 
--- site-doc.component-doc: `headings`
-package-link: fastn-community.github.io/typography
-github-link: https://github.com/fastn-community/typography
-package-name: fastn-community.github.io/typography
-info: ` headings` contains various heading like h0, h1, h2, h3 & h4.
-
-The `typography` component is already included inside
-[`doc-site`](fifthtry.github.io/doc-site). If you are using `doc-site` then 
-don't add typography as fastn dependency.
-
--- site-doc.header: How to use?
-
-Add below code to your FASTN.ftd and Import `typography` into your `.ftd` file
-
--- cb.code:
-lang: ftd
-
-\-- fastn.dependency: fastn-community.github.io/typography
-
--- cb.code: 
-lang: ftd
-
-\-- import: fastn-community.github.io/typography as tf
-
-\-- tf.h0: This is heading hero
-
-Heading also has optional body property.
-
-\-- tf.h1: This is heading large
-
-Heading also has optional body property.
-
-\-- tf.h2: This is heading medium
-
-Heading also has optional body property.
-
-\-- tf.h3: This is heading small
-
-Heading also has optional body property.
-
-\-- tf.h4: This is heading tiny
-
-Heading also has optional body property.
 
 -- site-doc.header: Properties:
 
