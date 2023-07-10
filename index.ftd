@@ -10,19 +10,42 @@ current-package: fastn-community.github.io/typography
 show-tabs: false
 site-title: Typography
 
--- site-doc.header: What is a Typography?
+-- site-doc.output:
+
+-- h0: This is heading hero
+
+Heading also has optional body property.
+
+-- h1: This is heading large
+
+Heading also has optional body property.
+
+-- h2: This is heading medium
+
+Heading also has optional body property.
+
+-- h3: This is heading small
+
+Heading also has optional body property.
+
+-- h4: This is heading tiny
+
+Heading also has optional body property.
+
+-- markdown:
+
+This is markdown text. You can add [link](https://fastn.com) and
+add **bold**, *italic* etc styles to markdown text.
+
+-- end: site-doc.output
+
+-- site-doc.header: What is a Typography
 
 Font typography involves adjusting various typographical elements such as font
 size, line spacing, letter spacing, and kerning to ensure that the text is easy
 to read and visually appealing. 
 
--- site-doc.header: How to install fastn?
-
-Please, [click here](https://fastn.io/install/) to read fastn installation
-documentation.
-
-
--- site-doc.header: How to use `typography`?
+-- site-doc.header: How to use `typography`
 
 To use `typography` add below lines into your FASTN.ftd file:
 
