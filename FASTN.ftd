@@ -4,7 +4,7 @@
 
 -- fastn.dependency: fastn-community.github.io/site-doc
 -- fastn.dependency: fastn-community.github.io/code-block
--- fastn.dependency: fastn-community.github.io/pretty-cs
+-- fastn.dependency: fastn-community.github.io/bling
 
 
 
@@ -16,6 +16,3 @@
 
 - Headings h0 to h4: /headings/
 - Markdown: /markdown/
-
-# GitHub
-  url: https://github.com/fastn-community/typography

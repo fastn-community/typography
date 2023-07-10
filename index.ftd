@@ -6,8 +6,6 @@
 
 -- site-doc.doc-home: Typography
 github-url: https://github.com/fastn-community/typography
-color-scheme: \$ftd.default-colors
-typography: \$ftd.default-types
 current-package: fastn-community.github.io/typography
 show-tabs: false
 site-title: Typography

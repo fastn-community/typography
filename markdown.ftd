@@ -1,7 +1,7 @@
 -- import: fastn-community.github.io/typography as tf
 -- import: fastn-community.github.io/code-block as cb
 -- import: fastn-community.github.io/site-doc
--- import: fastn-community.github.io/pretty-cs as cs
+-- import: fastn-community.github.io/bling/collapse
 
 
 
@@ -9,14 +9,11 @@
 
 -- site-doc.doc-home: Typography
 github-url: https://github.com/fastn-community/typography
-color-scheme: \$ftd.default-colors
-typography: \$ftd.default-types
 current-package: fastn-community.github.io/typography
 show-tabs: false
 site-title: Typography
 
 -- site-doc.output:
-colors: $cs.main
 
 -- tf.markdown:
 
@@ -58,15 +55,19 @@ add **bold**, *italic* etc styles to markdown text.
 
 Markdown has only body property as its default. 
 
--- site-doc.component-property: `body`
+-- site-doc.component-property: `body`  type: body (`required`)
 
 Body property is used to add body content of markdown component. Markdown
 body is using common font-size, line-height and font-weight.
+
+-- collapse.collapse: `body` - click here to see  details
 
 🔶 Body text uses fastn default `$inherited.types.copy-regular` type.
 
 - desktop: `font-size: 16, line-height: 24, letter-spacing: 0, weight: 400`
 - mobile: `font-size: 16, line-height: 24, letter-spacing: 0, weight: 400`
+
+-- end: collapse.collapse
 
 -- end: site-doc.component-doc
 
